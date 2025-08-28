@@ -3,6 +3,7 @@
 This is my personal portfolio website built with **React + Tailwind CSS**, showcasing my projects, skills, and experiences.  
 It serves as an interactive resume and a central hub for my work.
 
+- https://malav-pancholi.vercel.app/
 ---
 
 ## ✨ Features
@@ -20,7 +21,7 @@ It serves as an interactive resume and a central hub for my work.
 - **Frontend**: React, Tailwind CSS, Framer Motion  
 - **Backend (optional)**: Node.js / Express  
 - **Database (optional)**: MongoDB / Firebase  
-- **Deployment**: Vercel / Netlify  
+- **Deployment**: Vercel
 - **Other Tools**: Git, Figma, Canva  
 
 ---
