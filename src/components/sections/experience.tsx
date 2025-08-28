@@ -8,23 +8,23 @@ export function Experience() {
       title: "Technical Lead",
       company: "Accomzy Accommodation Pvt. Ltd.",
       period: "Nov 2023 - Dec 2024",
-      description: "Leading development of scalable web applications using React, Node.js, and AWS. Mentoring junior developers and architecting microservices solutions.",
+      description: "Shows leadership + delivery + mentoring in a compact way. It makes you look like a tech lead who not only codes but also drives the team and product vision. Perfect balance for recruiters and portfolio viewers.",
       technologies: ["React", "Node.js", "AWS", "PostgreSQL", "Docker"]
     },
     {
-      title: "Frontend Developer",
-      company: "StartupXYZ",
-      period: "2020 - 2022",
-      description: "Built responsive web applications and improved user experience. Collaborated with design teams to implement pixel-perfect UI components.",
-      technologies: ["Vue.js", "TypeScript", "Tailwind CSS", "Firebase"]
+      title: "SEO Intern",
+      company: "Secret MindTech",
+      period: "May 2022 - June 2022",
+      description: "Worked as a Digital Marketing Intern at Secret MindTech, where I supported digital campaigns, market research, and content strategy to enhance the company’s online presence and client outreach.",
+      technologies: ["Google Analytics", "Google Ads", "SEMrush", "Google Sheets"]
     },
-    {
-      title: "Software Engineer Intern",
-      company: "BigTech Inc",
-      period: "2019 - 2020",
-      description: "Developed internal tools and contributed to open-source projects. Gained experience in agile development and code review processes.",
-      technologies: ["Python", "Django", "MySQL", "Git"]
-    }
+    // {
+    //   title: "Software Engineer Intern",
+    //   company: "BigTech Inc",
+    //   period: "2019 - 2020",
+    //   description: "Developed internal tools and contributed to open-source projects. Gained experience in agile development and code review processes.",
+    //   technologies: ["Python", "Django", "MySQL", "Git"]
+    // }
   ];
 
   return (
@@ -50,7 +50,7 @@ export function Experience() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-muted-foreground">{exp.description}</p>
-                  <div className="flex flex-wrap gap-2">
+                  {/* <div className="flex flex-wrap gap-2">
                     {exp.technologies.map((tech, techIndex) => (
                       <ScrollReveal key={tech} direction="up" delay={index * 200 + techIndex * 100}>
                         <Badge variant="secondary" className="text-sm hover:bg-primary/20 transition-colors">
@@ -58,7 +58,7 @@ export function Experience() {
                         </Badge>
                       </ScrollReveal>
                     ))}
-                  </div>
+                  </div> */}
                 </CardContent>
               </Card>
             </ScrollReveal>

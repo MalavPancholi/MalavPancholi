@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.animate-typing {
+  display: inline-block;
+  animation: typing 3s steps(20, end) infinite alternate;
+}
